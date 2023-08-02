@@ -7,5 +7,9 @@ public class Project1{
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         System.out.println("Hello, " + name.toUpperCase());
+        System.out.print("Enter your age: ");
+        int age = Integer.parseInt(scanner.nextLine());
+        System.out.println("Enter your birth country: ");
+        String bcountry = scanner.nextLine();
     }
 }
